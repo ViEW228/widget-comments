@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.commentWidget {
+  width: 80%;
+  margin: 150px auto;
+}
+
+.headerComment {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.formComment {
+  margin: 0 auto 30px;
+  width: 80%;
+}
+
+.textareaComment {
+  display: block;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(63, 63, 68);
+  border-radius: 5px;
+  resize: none;
+}
+
+.inputComment {
+  display: block;
+  width: 35%;
+  padding: 10px;
+  border: 1px solid rgb(63, 63, 68);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.containerComment {
+  width: 80%;
+  margin: 0 auto 30px;
+}
+
+.infoAllComment {
+  width: 100%;
+  background-color: rgb(205, 205, 211);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.infoBlockComment {
+  display: flex;
+}
+
+.nameComment {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.timeComment {
+  margin: 0;
+  text-align: right;
+  font-size: 12px;
+}
+
+.exactlyСomment {
+  font-size: 14px;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.containerInputBtn {
+  display: flex;
+}
+
+.buttonAddComment {
+  display: block;
+  padding: 10px;
+  background-color: rgb(205, 205, 211);
+  border: 1px solid rgb(63, 63, 68);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttonAddComment:hover {
+  transition: background-color 0.4s ease-in-out;
+  background-color: rgb(137, 221, 54);
+}
+
+.buttonDelComment {
+  margin: 0 0 0 auto;
+  border: none;
+  background-color: initial;
+  cursor: pointer;
+  font-size: 14px;
+  transform: translateX(-1);
+  transform: scaleX(1.5);
+}
+
+.buttonAddComment:active,
+.buttonDelComment:active {
+  transform: scale(0.9, 0.9);
+}
+
+
