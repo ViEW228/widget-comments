@@ -24,7 +24,7 @@ const initialState = [
   },
   { 
     id: uuidv4(),
-    name: 'My person', 
+    name: 'My commit', 
     text: 'Hello, I glad to see you in the vastness of my mini web-application', 
     time: '08.09.2021, 11:48:23',
     button: true,
