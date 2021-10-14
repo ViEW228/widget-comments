@@ -47,10 +47,10 @@ Type https://github.com/ViEW228/portfolio-euclid and press Enter to create your 
 
 The next step is to check the functionality of the web project.
 
-```
+
 If node.js is not installed on your personal computer, you can install it from the [link](https://nodejs.org/ru/download/).
 Open the file and follow the instructions.
-```
+
 
 ```
 Open the folder in the terminal.
