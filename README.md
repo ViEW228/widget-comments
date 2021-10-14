@@ -53,7 +53,7 @@ Open the file and follow the instructions.
 
 
 ```
-Open the folder in the terminal.
+After installing node.js. Open the folder in the terminal.
 Enter command: npm init
 ```
 
